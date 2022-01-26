@@ -1,0 +1,43 @@
+:root{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontcolor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    font-family: monospace;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+/*#msg{
+    font-family: monospace;
+} */
+
+
+
+.light-theme{
+    color: #000000; /*Usar o --bg: var(--green);*/
+    background: #00FF00; /*Usar o --fontColor: var(--green);*/
+}
+
+.dark-theme{
+    --bg:var(--black);
+    --fontcolor: var(--green);
+}
