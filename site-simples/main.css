@@ -26,6 +26,9 @@ li {
 
 .list {
     list-style: square;
+    animation-delay: 1.60s;
+    animation-name: animate-fade;
+    animation-fill-mode: backwards;
 }
 
 /*#msg{
