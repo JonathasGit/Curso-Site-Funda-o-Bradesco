@@ -2,8 +2,8 @@
     --green: #00FF00;
     --white: #FFFFFF;
     --black: #000000;
-    --btnFontColor: #323232;
-    --btnBg: ;
+    /*--btnFontColor: #323232;*/
+    /*--btnBg: ;*/
 }
 
 * {
@@ -35,15 +35,18 @@ li {
 
 
 .light-theme{
-    color: #000000; /*Usar o --bg: var(--green);*/
-    background: #00FF00; /*Usar o --fontColor: var(--green);*/
+    --bg: var(--green); /*color: #000000; Usar o */
+    background-color: white;
+    --fontColor: var(--green); /*background: #00FF00; /*Usar o */
     --btnBg: var(--black); /*do botão*/
     --btnFontColor: var(--white);
 }
 
 .dark-theme{
-    --bg:var(--black);
-    --fontcolor: var(--green);
+    /*--bg:var(--black);*/
+    background-color: black;
+    color:red;
+    /*--fontcolor: var(--green);*/
     --btnBg:var(--white);
     btnFontColor:var(--black)
 }
